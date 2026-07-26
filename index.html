@@ -176,7 +176,7 @@
     .action-inner { display: grid; grid-template-columns: 1fr; gap: 32px; align-items: center; }
     .action-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
     .action-photo { border-radius: var(--radius-md); overflow: hidden; height: 180px; }
-    .action-photo img { width: 100%; height: 100%; object-fit: cover; }
+    .action-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
     .action-text h2 { color: var(--white); font-size: clamp(1.4rem, 4vw, 2rem); font-weight: 800; line-height: 1.2; }
     .action-text p { color: rgba(255,255,255,.7); font-size: .97rem; line-height: 1.7; margin-top: 12px; }
 
@@ -280,9 +280,9 @@
       .sticky-cta-bar .btn-whatsapp { font-size: .88rem; padding: 12px 12px; }
       .sticky-cta-bar .btn-phone { font-size: .88rem; padding: 12px 14px; flex-shrink: 0; }
 
-      /* Action photos: 1 coluna */
+      /* Action photos: 1 coluna, altura proporcional pra não cortar o rosto */
       .action-photos { grid-template-columns: 1fr; }
-      .action-photo { height: 160px; }
+      .action-photo { height: auto; aspect-ratio: 3 / 4; }
 
       /* Services grid: 1 coluna */
       .services-grid { grid-template-columns: 1fr; }
