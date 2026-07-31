@@ -5,7 +5,6 @@
 ```
 DraEwerjane/
 ├── index.html       ← Landing page completa
-├── img/             ← Coloque as fotos aqui (nomes abaixo)
 └── README.md
 ```
 
