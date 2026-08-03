@@ -1922,6 +1922,31 @@
     }, { passive: true });
   </script>
 
+  <!-- Rastreamento de conversão - Clique WhatsApp -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18344650683/ogwHCM_Rp9gcELvPtKtE',
+        'event_callback': callback
+    });
+    return false;
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a[href*="wa.me"], a[href*="whatsapp"]').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        gtag_report_conversion(this.href);
+      });
+    });
+  });
+  </script>
+
 </body>
 
 </html>
