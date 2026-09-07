@@ -50,8 +50,8 @@ Antes de publicar, preencha os campos marcados com `[...]` no `index.html`:
 
 ## 📱 Contato configurado
 
-- WhatsApp: `(79) 98156-7361` — já configurado em todos os botões
-- Telefone: `(79) 98156-7361` — já configurado nos botões "Ligar Agora"
+- WhatsApp: `(79) 99976-6279` — já configurado em todos os botões
+- Telefone: `(79) 99976-6279` — já configurado nos botões "Ligar Agora"
 - Mensagem automática do WhatsApp já pré-configurada
 
 ## 🎨 Design System
